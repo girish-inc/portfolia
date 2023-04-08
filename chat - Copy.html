@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Command Prompt Animation</title>
+    <style>
+      .prompt {
+        background-color: black;
+        color: white;
+        font-family: monospace;
+        padding: 20px;
+        white-space: pre-wrap;
+        height: 150px;
+        overflow: hidden;
+      }
+
+      .line {
+        height: 20px;
+        width: 100%;
+        margin-bottom: 5px;
+        background-color: black;
+        animation: typing 3s steps(30, end) forwards;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="prompt">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <script>
+      const lines = [
+        "Hello, World!",
+        "This is a test.",
+        "Lorem ipsum dolor sit amet.",
+      ];
+
+      const prompt = document.querySelector(".prompt");
+
+      lines.forEach((line) => {
+        const div = document.createElement("div");
+        div.textContent = line;
+        prompt.appendChild(div);
+      });
+    </script>
+  </body>
+</html>
