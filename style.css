@@ -11,9 +11,13 @@
   background-color: black;
   width: 200px;
   font-family: "Fira Sans", sans-serif;
-  height: 500vh;
+  height: 100vh;
   border-radius: 25px;
   margin: -20px 0 0 0;
+}
+
+.projectsidebar{
+height:500HV;
 }
 
 .sidebar nav {
