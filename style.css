@@ -391,7 +391,7 @@ p {
   border-radius: 10px;
   position: absolute;
   left: 321px;
-  bottom: -254px;
+  bottom: -336px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -407,21 +407,21 @@ p {
 
 .tradeg{
   left: 321px;
-  bottom: -903px;
+  bottom: -985px;
 }
 
 .portfolio{
   left: 320px;
-  bottom: -1560px;
+  bottom: -1639px;
 }
 
 .lorem{
   left: 321px;
-  bottom: -2214px;
+  bottom: -2292px;
 }
 .ev{
   left: 321px;
-  bottom: -3027px;
+  bottom: -3104px;
 }
 
 
